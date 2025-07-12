@@ -429,3 +429,31 @@ transition: .5 ease;
     font-size: 2.4rem;
     color: var(--second-bg-color);
 }
+
+
+
+/* Place this near the end of your CSS file */
+
+@media (max-width: 768px) {
+  .portfolio-container {
+    grid-template-columns: 1fr;  /* stack items vertically */
+  }
+
+  .navbar a {
+    margin-left: 2rem;
+    font-size: 1.4rem;
+  }
+
+  .home-img img {
+    width: 70vw; /* make image wider on small screens */
+  }
+
+  .about {
+    flex-direction: column; /* stack about section items vertically */
+    padding: 2rem;
+  }
+
+  section {
+    padding: 5rem 5%; /* reduce padding on smaller screens */
+  }
+}
