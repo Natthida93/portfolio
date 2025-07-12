@@ -432,28 +432,51 @@ transition: .5 ease;
 
 
 
-/* Place this near the end of your CSS file */
-
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .portfolio-container {
     grid-template-columns: 1fr;  /* stack items vertically */
+    gap: 1.5rem; /* a bit smaller gap */
   }
 
   .navbar a {
-    margin-left: 2rem;
-    font-size: 1.4rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
   }
 
   .home-img img {
-    width: 70vw; /* make image wider on small screens */
+    width: 70vw; /* keep image wide but manageable */
   }
 
   .about {
     flex-direction: column; /* stack about section items vertically */
-    padding: 2rem;
+    padding: 2rem 5%;
   }
 
   section {
-    padding: 5rem 5%; /* reduce padding on smaller screens */
+    padding: 4rem 5% 2rem; /* less padding on smaller screens */
+  }
+
+  .heading {
+    font-size: 3rem;
+  }
+
+  .home-content h1 {
+    font-size: 3.5rem;
+  }
+
+  .home-content h3 {
+    font-size: 2rem;
+  }
+
+  .home-content p {
+    font-size: 1.1rem;
+  }
+
+  .social-media a {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    margin-right: 1rem;
   }
 }
+
