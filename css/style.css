@@ -478,7 +478,7 @@ transition: .5 ease;
         position: absolute;
         top: 100%;
         left: 0;
-        width: 1005;
+        width: 100%;
         padding: 1rem 3%;
         background: var(--bg-color);
         border-top: .1rem solid rgba(0,0,0, .2);
@@ -501,8 +501,8 @@ transition: .5 ease;
         flex-direction: column;
     }
     
-    .home-contenth3{
-        font-size: 2.6remm;
+    .home-content h3{
+        font-size: 2.6rem;
     }
 
     .home-content h1 {
