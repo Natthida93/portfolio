@@ -283,6 +283,10 @@ span{
     margin-bottom: 4rem;
 }
 
+.portfolio h3{
+    margin-bottom: 4rem;
+}
+
 .portfolio-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -529,6 +533,7 @@ transition: .5 ease;
  .portfolio h2{
     margin-bottom: 3rem;
 }
+
 
 .portfolio-container{
     grid-template-columns: repeat(2, 1fr);
