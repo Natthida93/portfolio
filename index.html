@@ -127,7 +127,7 @@
   <li>Integrate hardware and software efficiently</li>
   <li>Collaborate in team projects & competitions</li>
   </ul>
-<a href="#" class="btn">Read More</a>
+<a href="files/readmoreIOT.pdf" class="btn">Read More</a>
   </div>
  </div>
   
@@ -237,20 +237,21 @@
 
   <section class="contact" id="contact">
     <h2 class="heading">Contact <span>Me!</span></h2>
-    <form action="#">
-    <div class="input-box">
-      <input type="text" placeholder="Full Name">
-      <input type="email" placeholder="Email Address">
-    </div>
-    <div class="input-box">
-      <input type="number" placeholder="Mobile Number">
-      <input type="text" placeholder="Email Subject">
+ <form action="https://formspree.io/f/xdkdgrrd" method="POST">
+  <div class="input-box">
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="email" name="email" placeholder="Email Address" required>
+  </div>
+  <div class="input-box">
+    <input type="tel" name="phone" placeholder="Mobile Number">
+    <input type="text" name="subject" placeholder="Email Subject">
+  </div>
+  <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
 
-    </div>
-    
-    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+  <input type="hidden" name="_next" value="thankyou.html">
+
   <input type="submit" value="Send Message" class="btn">
-  </form> 
+</form>
 </section>
 
 
@@ -276,5 +277,6 @@
 
     <!-- custom js -->
     <script src="js/script.js"></script>
+    
   </body>
 </html>
